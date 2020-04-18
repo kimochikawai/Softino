@@ -1,0 +1,242 @@
+/* =================Style creative============== */
+
+.creative .creative__content {
+    padding-bottom: 5rem;
+}
+
+.creative .work__component {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.creative .work__component .work__dots {
+    position: absolute;
+    top: 30%;
+    right: 100%;
+    transform: translateX(33%);
+    display: flex;
+}
+
+.creative .work__component .work__dots .dot {
+    width: 10px;
+    height: 10px;
+    margin: 8px;
+    border-radius: 50%;
+    background-color: #FC502F;
+}
+
+.creative .work__component .work__dots .dot:first-child {
+    animation: fade1 ease-in 1s infinite;
+    animation-delay: 0s;
+}
+
+.creative .work__component .work__dots .dot:nth-child(2) {
+    animation: fade1 ease-in 1s infinite;
+    animation-delay: 0.5s;
+}
+
+.creative .work__component .work__dots .dot:last-child {
+    animation: fade1 ease-in 1s infinite;
+    animation-delay: 0.8s;
+}
+
+.creative .work__component .work__card {
+    text-align: center;
+}
+
+.creative .work__component .work__card {
+    padding: 0 3rem;
+}
+
+.creative .work__component .work__card i {
+    font-size: 5rem;
+    padding: 4rem;
+    border-radius: 50%;
+    border: 1px solid rgb(224, 219, 219);
+    color: rgb(0, 0, 0);
+}
+
+.creative .work__text h1 {
+    font-size: 2.4rem;
+    color: #1c1d3e;
+    padding: 1.5rem 0;
+}
+
+.creative .work__text p {
+    font-size: 16px;
+}
+
+
+/* ================style modern=================== */
+
+.modern {
+    padding: 3rem 0;
+}
+
+.modern .modern__left {
+    padding-top: 5rem;
+    border-radius: 0.5rem;
+    box-shadow: -1px 0px 5px 0px rgba(166, 156, 166, 1);
+    background-color: rgb(255, 255, 255);
+}
+
+.modern .creative__content .creative__title {
+    width: max-content;
+    position: relative;
+}
+
+.modern .modern__right {
+    padding-top: 6rem;
+    padding-left: 2rem;
+}
+
+.modern .modern__right .creative__last--title {
+    padding: 2rem 0;
+}
+
+.modern .modern__right .page__left h1 {
+    line-height: 1.1;
+    font-weight: 500;
+    font-size: 5rem;
+    padding-bottom: 3rem;
+}
+
+.modern .modern__right .page__left p {
+    padding: 0.6rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #666666;
+    word-spacing: 2px;
+}
+
+.modern .modern__right .page__left p img {
+    padding-right: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+.modern .modern__right .page__btn1 {
+    padding-top: 4rem;
+}
+
+.modern .modern__right .page__btn1 a {
+    border-radius: 3rem;
+    padding: 1.2rem 3rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    box-shadow: -1px 0px 5px 0px rgba(166, 156, 166, 0.42);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transition: 0.35s;
+}
+
+.modern .modern__right .page__btn1 a:hover {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 81, 47, 1) 0%, rgba(240, 152, 25, 1) 80%);
+}
+
+.wrapper .modern .modern__right .page__btn2:hover {
+    transform: translateY(-10%);
+}
+
+.modern .modern__right .page__btn2 {
+    transition: 0.35s;
+}
+
+.modern .modern__right .page__btn2 a {
+    border-radius: 3rem;
+    background: linear-gradient(90deg, rgba(255, 81, 47, 1) 0%, rgba(240, 152, 25, 1) 80%);
+    box-shadow: -1px 0px 5px 0px rgba(166, 156, 166, 0.42);
+    padding: 1.2rem 3rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.modern__btn {
+    display: flex;
+}
+
+.modern .modern__right .page__btn2 {
+    padding-top: 4rem;
+    padding-left: 3rem;
+}
+
+
+/*
+================Style tree================= */
+
+.tree {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.tree .tree__overlay--big {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background-color: #FAFAFF;
+    position: absolute;
+    clip-path: circle(62.4% at 83% 59%);
+}
+
+.tree .tree--right {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.tree .tree__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bg2.png);
+    animation: fadeTree 6s infinite;
+}
+
+@keyframes fadeTree {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.expert--right .services__card {
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.expert--right .services__card i {
+    font-size: 4rem;
+    color: #FF512F;
+    transition: 0.4s;
+}
+
+.tree .services__card:hover i {
+    color: rgb(255, 255, 255);
+}
+
+@media (min-width:768px) {
+    .tree .expert--right .exp--card {
+        margin-top: 1rem;
+    }
+}
+
+@media(min-width:992px) {
+    .modern .container {
+        min-width: 100%;
+        padding: 0 0;
+    }
+}

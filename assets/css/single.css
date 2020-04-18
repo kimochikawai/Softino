@@ -1,0 +1,287 @@
+   .manager {
+       padding-top: 5rem;
+       padding-bottom: 8rem;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-image: url(../img/bg3.png);
+   }
+   
+   .manager .manager__img img {
+       border-radius: 0.5rem;
+   }
+   
+   .manager .manager__card {
+       padding-top: 7rem;
+   }
+   
+   .manager .manager__card h3 {
+       font-size: 1.8rem;
+       color: #ff512f;
+       font-weight: 400;
+       letter-spacing: 1.3px;
+   }
+   
+   .manager .manager__card h1 {
+       font-size: 4rem;
+       color: #1c1d3e;
+   }
+   
+   .manager .manager__card p {
+       font-size: 1.7rem;
+       color: #1c1d3e;
+   }
+   
+   .manager .manager__card h2 p {
+       font-size: 1.6rem;
+       font-weight: 400;
+       padding: 2rem 0;
+       color: #5f5f5f;
+   }
+   
+   .manager .manager__card .manager__info {
+       display: flex;
+       color: #1c1d3e;
+       font-weight: 400;
+       font-size: 1.5rem;
+       align-items: center;
+   }
+   
+   .manager .manager__card .manager__info i {
+       padding: 1.5rem;
+       color: #ff512f;
+       font-size: 2.2rem;
+       -webkit-box-shadow: 0px -2px 16px -2px rgba(186, 186, 186, 0.36);
+       -moz-box-shadow: 0px -2px 16px -2px rgba(186, 186, 186, 0.36);
+       box-shadow: 0px -2px 16px -2px rgba(186, 186, 186, 0.36);
+   }
+   
+   .manager .manager__card .manager__info h4 {
+       padding: 0.5rem 2rem;
+   }
+   
+   .manager .manager__card .list--social {
+       display: flex;
+       padding-top: 4rem;
+       font-size: 1.8rem;
+   }
+   
+   .manager .manager__card .list--social i {
+       font-size: 4.2rem;
+   }
+   
+   .manager .manager__card .list--social li {
+       padding: 0 1.2rem 0 0;
+   }
+   
+   .manager .manager__card .list--social li:first-child i {
+       color: #5D82D1;
+   }
+   
+   .manager .manager__card .list--social li:nth-child(2) i {
+       color: rgb(255, 255, 255);
+       border-radius: 50%;
+       background-color: #40BFF5;
+   }
+   
+   .manager .manager__card .list--social li:nth-child(3) {
+       color: #DB5442;
+       border-radius: 50%;
+   }
+   
+   .manager .manager__card .list--social li:last-child {
+       color: #238CC8;
+   }
+   /* ================style exxpert============== */
+   
+   .expert {
+       padding-top: 5rem;
+       padding-bottom: 5rem;
+       position: relative;
+   }
+   
+   @media (max-width:575px) {
+       .wrapper .expert .expert--left h2 {
+           font-size: 3rem;
+       }
+   }
+   
+   @media (min-width:768px) {
+       .expert .expert--right .exp--card {
+           margin-top: 7.5rem;
+       }
+   }
+   
+   @media (min-width:992px) {
+       .creative {
+           padding-top: 16rem;
+       }
+   }
+   
+   .expert .expert--right .services__card {
+       text-align: left;
+   }
+   
+   .expert--overlaybig {
+       width: 100%;
+       z-index: -1;
+       height: 100%;
+       position: absolute;
+       background-color: #FAFAFF;
+       clip-path: circle(64.0% at 80% 57%);
+   }
+   
+   .expert .expert--left {
+       padding-top: 7rem;
+   }
+   
+   .expert .expert--left .creative__title {
+       width: max-content;
+       position: relative;
+   }
+   
+   .expert .expert--left h2 {
+       font-size: 4rem;
+       padding: 3rem 0;
+       color: #1c1d3e;
+   }
+   
+   .expert .expert--left h4 {
+       font-size: 1.6rem;
+       color: #2c2c2c;
+       padding: 1.2rem 0;
+   }
+   
+   .expert .expert--left .expert__percent {
+       width: 100%;
+       height: 3.2rem;
+       position: relative;
+       border-radius: 4rem;
+       background-color: #ECEFF8;
+       margin-bottom: 1rem;
+   }
+   
+   .expert .expert--left .expert__percent .expert--overlay {
+       height: 82%;
+       display: flex;
+       align-items: center;
+       justify-content: flex-end;
+       top: 0.3rem;
+       left: 1%;
+       border-radius: 4rem;
+       background: #FF512F;
+       position: absolute;
+       width: 1%;
+   }
+   
+   .expert .expert--left .exp1 .countPer1 {
+       animation: runpercent1 3.5s;
+       width: 63%;
+   }
+   
+   .expert .expert--left .exp2 .countPer2 {
+       width: 73%;
+       animation: runpercent2 3.5s;
+   }
+   
+   .expert .expert--left .exp3 .countPer3 {
+       width: 83%;
+       animation: runpercent3 3.5s;
+   }
+   
+   .expert .expert--left .exp4 .countPer4 {
+       width: 93%;
+       animation: runpercent4 3.5s;
+   }
+   
+   .expert--right .services__card {
+       -webkit-box-shadow: 0px -2px 16px -2px rgba(186, 186, 186, 0.36);
+       -moz-box-shadow: 0px -2px 16px -2px rgba(186, 186, 186, 0.36);
+       box-shadow: 0px -2px 16px -2px rgba(186, 186, 186, 0.36);
+       cursor: pointer;
+       display: flex;
+       position: relative;
+       text-align: center;
+       justify-content: center;
+       padding: 0 4rem;
+       border-radius: 0.8rem;
+       margin-top: 5rem;
+       overflow: hidden;
+   }
+   
+   .expert--right .services__card .services__component {
+       padding: 3rem 0;
+   }
+   
+   .expert--right .services__card .services__component .services--overlay {
+       position: absolute;
+       background-color: white;
+       z-index: -1;
+       width: 100%;
+       height: 100%;
+       top: 0;
+       border-radius: 1rem;
+       left: 0;
+       display: flex;
+   }
+   
+   .expert--right .services__card h1 {
+       font-size: 2rem;
+       padding: 2rem 0;
+   }
+   
+   .expert--right .services__card p {
+       font-size: 1.5rem;
+       color: rgb(153, 153, 153);
+   }
+   
+   @keyframes runpercent1 {
+       0% {
+           width: 0%;
+       }
+       100% {
+           width: 63%;
+       }
+   }
+   
+   @keyframes runpercent2 {
+       0% {
+           width: 0%;
+       }
+       100% {
+           width: 73%;
+       }
+   }
+   
+   @keyframes runpercent3 {
+       0% {
+           width: 0%;
+       }
+       100% {
+           width: 83%;
+       }
+   }
+   
+   @keyframes runpercent4 {
+       0% {
+           width: 0%;
+       }
+       100% {
+           width: 93%;
+       }
+   }
+   
+   .expert .expert--left .expert__percent .expert--overlay h5 {
+       font-size: 1.6rem;
+       color: white;
+       padding-right: 0.5rem;
+   }
+   /* =====================style creative================== */
+   
+   .creative {
+       padding-top: 10rem;
+   }
+   
+   .footer {
+       padding: 0rem 0 2rem 0;
+   }
